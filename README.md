@@ -23,7 +23,7 @@ https://chromewebstore.google.com/detail/omnibug/bknpehncffejahipecakbfkomebjmok
 
 NB: Go to the admin panel > Events > Make sure the form submit is a key event for tracking its metrics
 
-## Reports (remember to put date ranges)
+## Reports
 ### Dimentions (Y axis)
 
 1. Page Title: The specific name of the page as defined by the <title> HTML tag.
