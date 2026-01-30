@@ -23,7 +23,7 @@ https://chromewebstore.google.com/detail/omnibug/bknpehncffejahipecakbfkomebjmok
 
 NB: Go to the admin panel > Events > Make sure the form submit is a key event for tracking its metrics
 
-## Reports
+## Report Dimentions and Metrics
 ### Dimentions (Y axis)
 
 1. Page Title: The specific name of the page as defined by the <title> HTML tag.
@@ -65,3 +65,5 @@ NB: Go to the admin panel > Events > Make sure the form submit is a key event fo
 8. Event Count: The total number of times any "Event" was triggered.
 
 9 Key Events: The total number of times an action you've marked as "important" (formerly "Conversions") occurred.
+
+## Most commonly used reports
