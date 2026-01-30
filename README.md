@@ -81,3 +81,5 @@ NB: Go to the admin panel > Events > Make sure the form submit is a key event fo
 3. **Engagements > Events:** You can see which event got fired how many times
 4. **Engagements> Pages and Screens** : Gives info per page of a site and metrics
 5. **Landing Page:** Which pages are mostly used when people enter the site
+    * If you want to know where people are coming from to that page you can select plus icon next to landing page and search for session source.
+6. **User > Tech > Tech Details:** Help see what devices users use most when interacting with the site.
