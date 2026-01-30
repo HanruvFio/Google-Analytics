@@ -22,3 +22,19 @@ https://chromewebstore.google.com/detail/omnibug/bknpehncffejahipecakbfkomebjmok
    b. Webflow > Site settings > Integration
 
 NB: Go to the admin panel > Events > Make sure the form submit is a key event for tracking its metrics
+
+## Reports (remember to put date ranges)
+
+### Pages and screens
+
+* Important Metrics
+  * The Pages and screens report shows how users interact with each of your web pages or app screens.
+
+### Traffic Acquisition
+
+* Important Metrics
+  *
+### Events
+
+* Important Metrics
+  * 
