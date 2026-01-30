@@ -24,17 +24,44 @@ https://chromewebstore.google.com/detail/omnibug/bknpehncffejahipecakbfkomebjmok
 NB: Go to the admin panel > Events > Make sure the form submit is a key event for tracking its metrics
 
 ## Reports (remember to put date ranges)
+### Dimentions (Y axis)
 
-### Pages and screens
+1. Page Title: The specific name of the page as defined by the <title> HTML tag.
 
-* Important Metrics
-  * The Pages and screens report shows how users interact with each of your web pages or app screens.
+2. Page Path + Query String: The part of the URL after the domain (e.g., /products?id=123).
 
-### Traffic Acquisition
+3. Hostname: The main domain where your tracking code is running (e.g., www.yoursite.com).
 
-* Important Metrics
-  *
-### Events
+4. Landing Page + Query String: The very first page a user arrived at when they started their session.
 
-* Important Metrics
-  * 
+5. Session Source: Where your traffic came from specifically (e.g., google, newsletter, or facebook).
+
+6. Session Medium: The broad category of the source (e.g., organic, cpc for ads, or email).
+
+7. Session Campaign: The specific marketing effort or promotion name tied to the visit.
+
+8. Session Manual Ad Content: The specific link or ad version clicked (often used in A/B testing).
+
+9. Event Name: The specific action a user took (e.g., page_view, file_download, or click).
+
+10. Device Category: The type of hardware the visitor used (e.g., desktop, mobile, or tablet).
+
+### Metrics (X axis)
+
+1. Users: The total number of unique people who visited your site.
+
+2. Sessions: The total number of visits (one user can have multiple sessions).
+
+3. Views: The total number of times a screen or page was loaded.
+
+4. Bounce Rate: The percentage of sessions that were not engaged (usually sessions lasting < 10 seconds).
+
+5. Engagement Rate: The opposite of bounce rate; the percentage of sessions that were meaningful/active.
+
+6. Average Engagement Time: The average amount of time the site was actually in the foreground of the user's screen.
+
+7. Views Per Session: The average number of pages a person looked at during a single visit.
+
+8. Event Count: The total number of times any "Event" was triggered.
+
+9 Key Events: The total number of times an action you've marked as "important" (formerly "Conversions") occurred.
