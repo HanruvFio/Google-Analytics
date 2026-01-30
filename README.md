@@ -67,3 +67,17 @@ NB: Go to the admin panel > Events > Make sure the form submit is a key event fo
 9 Key Events: The total number of times an action you've marked as "important" (formerly "Conversions") occurred.
 
 ## Most commonly used reports
+
+1. **Acquisitions > User Acquisition:** This report focuses on Discovery. It tells you how people found your website for the very first time in their lives.
+  * First User Primary Channel Group: The broad category of that first visit.
+    * Direct: They typed your URL into the browser or used a bookmark.
+    * Referral: They clicked a link on another website (a "backlink") to get to you.
+  * First User Medium
+2. **Acquisitions > Traffic Acquisition:** This report focuses on Sessions. It tells you where a user came from for their current visit, even if they've visited before.
+  * First User Primary Channel Group
+    * Direct: When People Endter the address in the address bar
+    * Referral: Someone else liked to the website (Backlink)
+  * First User Medium: First User Medium: The specific "type" of that first contact, such as organic, cpc (paid ads), or email.
+3. **Engagements > Events:** You can see which event got fired how many times
+4. **Engagements> Pages and Screens** : Gives info per page of a site and metrics
+5. **Landing Page:** Which pages are mostly used when people enter the site
