@@ -23,6 +23,53 @@ https://chromewebstore.google.com/detail/omnibug/bknpehncffejahipecakbfkomebjmok
 
 NB: Go to the admin panel > Events > Make sure the form submit is a key event for tracking its metrics
 
+## UTMs (A way to understand where users come from)
+  * Bold part is the UTM String, they are alwyas lowercase with no spaces in between
+<img width="613" height="40" alt="image" src="https://github.com/user-attachments/assets/e0b45363-5003-4ded-a28b-9dae60a10acf" />
+
+  * Analytics can provide information on where a page has been accessed from
+<img width="905" height="248" alt="image" src="https://github.com/user-attachments/assets/6498d4eb-84ff-4de6-a608-30e74f7e06c0" />
+
+### UTM Types:
+  * You have a facebook post, and you have a facebook ad (these 2 are different types of content from a single source facebook)
+    * UTM Source: This identifies the platform or "referrer" where the traffic originated. Since both examples are on Facebook, the source remains the same.
+      * **Value:** facebook
+      * **Purpose:** To show that the traffic came from Facebook rather than Google, LinkedIn, or an email list.
+    * UTM Medium: This is the most important field for your specific example. It identifies the type of traffic or the high-level channel. This is where you distinguish between "free" and "paid."
+      * **For the Facebook Post:** social (or organic)
+      * **For the Facebook Ad:** cpc (Cost Per Click) or paid
+      * **Purpose:** To help you see if your paid marketing is performing better than your free social media efforts.
+    * UTM Campaign: This identifies the specific effort or promotion. This is usually a name you invent to group your links together.
+      * **For the Facebook Post:** spring_sale_announcement
+      * **For the Facebook Ad:** spring_sale_retargeting
+      * **Purpose:** To track the success of a specific marketing initiative across different channels.
+    * UTM Term: This is primarily used to identify who you are targeting or what they searched for.
+      * **For the Facebook Post:** You typically leave this blank, or use it to note a specific interest group (e.g., organic_followers).
+      * **For the Facebook Ad:** You use this for your specific audience target (e.g., past_purchasers or fitness_interests).
+      * **Purpose:** Traditionally used for paid search keywords, but on social media, it’s used for audience identification.
+    * UTM Content: This is used to identify the specific version of a link or ad to see which one performs better (A/B testing).
+      * **For the Facebook Post:** If you post a link in the text and the same link in a comment, you could use text_link vs. comment_link.
+      * **For the Facebook Ad:** You use this to distinguish between different visuals, such as blue_banner vs. lifestyle_video.
+      * **Purpose:** To differentiate between multiple links or creative variations that lead to the same URL.
+     
+#### Example 1: wwww.beautifulplates.com/shop/**utm_source=facebook&utm_medium=organic&utm_campaign=spring_sale**
+  * Source: Facebook
+  * Medium: Organic (Normal traffic from a social post)
+  * Campaign: Spring Sale
+
+#### Example 2: wwww.beautifulplates.com/shop/**utm_source=instagram&utm_medium=cpc&utm_campaign=adset_4**
+  * Source: Instagram
+  * Medium: CPC (cost per click, paid add campagn)
+  * Campaign: adset_4
+
+#### Example 3: wwww.beautifulplates.com/shop/**utm_source=mailchimp&utm_medium=email&utm_campaign=weekly_newsletter**
+  * Source: Mailchimp
+  * Medium: email
+  * Campaign: weekly_newsletter
+
+### Setup
+UTM Campagn Builder Tool: https://ga-dev-tools.google/campaign-url-builder/
+
 ## Report Dimentions and Metrics
 ### Dimentions (Y axis)
 
