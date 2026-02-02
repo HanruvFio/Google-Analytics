@@ -68,6 +68,7 @@ NB: Go to the admin panel > Events > Make sure the form submit is a key event fo
   * Campaign: weekly_newsletter
 
 ### Setup
+1. Use this template - **Make a copy to respective client folder**: https://docs.google.com/spreadsheets/d/12GcdYo6s8ZCAe27S81OFpQU3JQLgANz0/edit?usp=drive_link&ouid=102891394710966900821&rtpof=true&sd=true
 UTM Campagn Builder Tool: https://ga-dev-tools.google/campaign-url-builder/
 
 ## Report Dimentions and Metrics
