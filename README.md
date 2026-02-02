@@ -131,3 +131,7 @@ UTM Campagn Builder Tool: https://ga-dev-tools.google/campaign-url-builder/
 5. **Landing Page:** Which pages are mostly used when people enter the site
     * If you want to know where people are coming from to that page you can select plus icon next to landing page and search for session source.
 6. **User > Tech > Tech Details:** Help see what devices users use most when interacting with the site.
+
+## Building Custom Reports (**Explorations**)
+1. Click on The + for blank
+2. 
