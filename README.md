@@ -187,9 +187,10 @@ This guide outlines how to build a high-clarity report in Google Analytics 4 to 
   
 ## **Client Report Collection**
 1. Acquisitions > Overview
-  2. Active And New Users Card
-  3. New Users by firts user primary channel group
-  4. Sessions by sessions primary channel group
+  - Active And New Users Card
+  - New Users by firts user primary channel group
+  - Sessions by sessions primary channel group
 2. Engagement Overview
-  3. Views by Page title and screen class
+  - Views by Page title and screen class
+3. Monthly Client Performance Report
  
