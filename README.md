@@ -132,17 +132,19 @@ UTM Campagn Builder Tool: https://ga-dev-tools.google/campaign-url-builder/
     * If you want to know where people are coming from to that page you can select plus icon next to landing page and search for session source.
 6. **User > Tech > Tech Details:** Help see what devices users use most when interacting with the site.
 
-# GA4 Custom Report: Client Acquisition & Campaign Performance
+#Building A dashboard for clients
+
+## **GA4 Custom Report: Client Acquisition & Campaign Performance**
 
 This guide outlines how to build a high-clarity report in Google Analytics 4 to track marketing campaigns, website traffic, and form submissions without the clutter of standard reports.
 
-## 1. Create the Custom Detail Report
+### 1. Create the Custom Detail Report
 1. Log in to **Google Analytics 4**.
 2. Navigate to **Reports** > **Library** (located at the bottom of the left-hand menu).
 3. Click **Create new report** and select **Create detail report**.
 4. Choose **Traffic acquisition** as the starting template to utilize its session-based logic.
 
-## 2. Customize Dimensions (Rows)
+### 2. Customize Dimensions (Rows)
 *To keep the report focused on where users come from and where they arrive.*
 1. In the **Report customization** panel on the right, click **Dimensions**.
 2. **Remove** all existing dimensions except:
@@ -153,7 +155,7 @@ This guide outlines how to build a high-clarity report in Google Analytics 4 to 
 4. Set `Session source / medium` as the **Primary dimension** (indicated by the checkmark).
 5. Click **Apply**.
 
-## 3. Customize Metrics (Columns)
+### 3. Customize Metrics (Columns)
 *To remove "noise" and focus on success indicators.*
 1. Click **Metrics** in the right-hand panel.
 2. **Remove** all existing metrics except:
@@ -163,13 +165,13 @@ This guide outlines how to build a high-clarity report in Google Analytics 4 to 
     * `Key events` (This replaces 'Conversions' and shows form submits).
 4. Click **Apply**.
 
-## 4. Finalize Visuals & Save
+### 4. Finalize Visuals & Save
 1. (Optional) If you want a table-only view for the client, click the **eye icon** next to the Charts (Bar chart and Line chart) to hide them.
 2. Click **Save**.
 3. **Report Name:** `Monthly Client Performance Report`.
 4. Click **Save** again.
 
-## 5. Add to Side Menu (Publishing)
+### 5. Add to Side Menu (Publishing)
 *Your report will not appear in the left menu until it is added to a collection.*
 1. Go back to the **Library**.
 2. Find the **Life cycle** or **Business objectives** collection and click **Edit collection**.
@@ -177,8 +179,17 @@ This guide outlines how to build a high-clarity report in Google Analytics 4 to 
 4. **Drag and drop** it into the "Acquisition" or "Engagement" folder on the left.
 5. Click **Save** > **Save changes to current collection**.
 
-## 6. How to Use the Report
+### 6. How to Use the Report
 * **Comparing Sources:** The report automatically lists all sources (e.g., `google / organic`, `linkedin.com / referral`, and your custom `linkedin-post / organic`).
 * **Drill Down:** Click the **blue "+" icon** next to `Session source / medium` in the table to add `Landing page` as a second column.
 * **Filter by Date:** Use the date picker in the top right to compare Day, Week, Month, or Year.
 
+  
+## **Client Report Collection**
+1. Acquisitions > Overview
+  2. Active And New Users Card
+  3. New Users by firts user primary channel group
+  4. Sessions by sessions primary channel group
+2. Engagement Overview
+  3. Views by Page title and screen class
+ 
