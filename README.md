@@ -151,7 +151,7 @@ This guide outlines how to build a high-clarity report in Google Analytics 4 to 
     * `Session source / medium` (This shows your UTM Source and Medium).
     * `Session campaign` (This shows your specific UTM Campaign name).
 3. Click **Add dimension** and search for:
-    * `Landing page + query string` (To see exactly which page they landed on).
+    * `Landing page` (To see exactly which page they landed on).
 4. Set `Session source / medium` as the **Primary dimension** (indicated by the checkmark).
 5. Click **Apply**.
 
